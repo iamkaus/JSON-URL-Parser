@@ -1,0 +1,21 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main/parser.js",
+  "scripts": {
+    "start": "node src/parser.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parser",
+    "json",
+    "data parsing",
+    "web scraping"
+  ],
+  "author": "ryo",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^16.13.1"
+  }
+}
