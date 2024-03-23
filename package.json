@@ -1,7 +1,7 @@
 {
   "name": "parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "json-url-parser",
   "main": "main/parser.js",
   "scripts": {
     "start": "node src/parser.js",
