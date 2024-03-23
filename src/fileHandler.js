@@ -1,4 +1,3 @@
-// fileHandler.js
 const fs = require("fs");
 
 /**
