@@ -1,4 +1,3 @@
-// jsonHandler.js
 /**
  * Parse JSON data from a string
  * @param {string} jsonString - the JSON string to parse
