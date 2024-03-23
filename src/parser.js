@@ -1,4 +1,3 @@
-// parser.js
 const { parseProtocol } = require("./urlParser");
 const { parseJson } = require("./jsonHandler");
 const { writeFile } = require("./fileHandler");
@@ -7,6 +6,8 @@ const fs = require("fs");
 /* const inputFile = "json/data.json";
 const outputFile = "json/parsed_data.json"; */
 
+//replace and add path to input_data_file in inputfile,
+//replace add path to output_data_file in outputfile
 //both input and output files should be of .json format and can be any xyz.json;
 
 fs.readFile(inputFile, "utf8", (err, data) => {
