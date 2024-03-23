@@ -27,11 +27,8 @@ This project is a URL parser that follows a specific format **_(protocol, host, 
 # Functionality
 
 The `readjson()` function reads data from input file.
-
 The `parsejson()` function parses data read from json into a javascript object.
-
 The `parseProtocol()` function ensures that the URL follows a specific format before parsing it. It validates the URL against a regular expression and returns an object containing the parsed components if the URL is in the expected format. If the URL does not match the expected format, the function returns null.
-
 The `writefile()` function writes json stringified object into output file
 -------------------------------------------------------------------------------------------
 
