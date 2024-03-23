@@ -1,6 +1,7 @@
 # URL Parser Project
 
-This project is a URL parser that follows a specific format **_(protocol, host, path)_**. It reads a URL from a _data.json_ _(can be changed to different .json file)_ file, converts it to a JavaScript object, and then extracts the string URL from it. The URL string is passed to a function called _parseProtocol()_, which parses it according to a predefined regular expression.
+* This project is a URL parser that follows a specific format **_(protocol, host, path)_**. It reads a URL from a _data.json_ _(can be changed to different .json file)_ file, converts it to a JavaScript object, and then extracts the string URL from it. The URL string is 
+  passed to a function called _parseProtocol()_, which parses it according to a predefined regular expression.
 -------------------------------------------------------------------------------------------
 
 ## How It Works
