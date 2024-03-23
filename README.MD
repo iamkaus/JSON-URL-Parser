@@ -26,32 +26,32 @@ This project is a URL parser that follows a specific format **_(protocol, host, 
 
 # Functionality
 
-The readjson() function reads data from input file.
+The `readjson()` function reads data from input file.
 
-The parsejson() function parses data read from json into a javascript object.
+The `parsejson()` function parses data read from json into a javascript object.
 
-The parseProtocol() function ensures that the URL follows a specific format before parsing it. It validates the URL against a regular expression and returns an object containing the parsed components if the URL is in the expected format. If the URL does not match the expected format, the function returns null.
+The `parseProtocol()` function ensures that the URL follows a specific format before parsing it. It validates the URL against a regular expression and returns an object containing the parsed components if the URL is in the expected format. If the URL does not match the expected format, the function returns null.
 
-The writefile() function writes json stringified object into output file
+The `writefile()` function writes json stringified object into output file
 -------------------------------------------------------------------------------------------
 
 ## Constraints
 
-The function _parsedProtocol()_, _readFile()_ and _writeFile()_ excepts only _string_ of type _stringURL_ and _outputfile/inputfile_ (which is basically the file from which data is to be read from and written to) because of the constraint _@param_ which binds the function parameter to such type of string
-
-The function _parsedProtocol()_ returns only an object conataining the parsed components upon successfull parse or _null_ if the parse failed because of _@returns_ contraint.
+* The function _parsedProtocol()_, _readFile()_ and _writeFile()_ excepts only _string_ of type _stringURL_ and _outputfile/inputfile_ (which is basically the file from which data is to be read from and written to) 
+  because of the constraint _@param_ which binds the function parameter to such type of string
+* The function _parsedProtocol()_ returns only an object conataining the parsed components upon successfull parse or _null_ if the parse failed because of _@returns_ contraint.
 -------------------------------------------------------------------------------------------
 
 ## Usage
 ### To use the URL parser:
 
-* Make sure you have Node.js installed on your system.
+* Make sure you have `Node.js` installed on your system.
 * Clone this repository to your local machine.
-* Install dependencies using npm install.
+* Install dependencies using `npm install`.
 * Place your URL data in the _desired.json file_ or a _data.json_ file for example.
 * The url in _.json_ must follow the format specified.
-* Run the parser using npm start.
-* The parsed data will be written to the parsed_data.json file.
+* Run the parser using `npm start`.
+* The parsed data will be written to the `parsed_data.json` file.
 -------------------------------------------------------------------------------------------
 
 # Dependencies
