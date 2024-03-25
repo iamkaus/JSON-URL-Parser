@@ -56,9 +56,6 @@
 ## This project uses the following dependencies:
 
 * `fs`: To read and write files.
-* `filehandler`: To handle write file function.
-* `jsonhandler`: To parse json data to javascript object.
-* `urlparser`: contains main parser logic.
 -------------------------------------------------------------------------------------------
 
 # Contributing
