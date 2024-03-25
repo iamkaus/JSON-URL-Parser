@@ -49,7 +49,7 @@
 * Place your URL data in the _desired.json file_ or a _data.json_ file for example.
 * The url in _.json_ must follow the format specified.
 * Run the parser using `npm start`.
-* The parsed data will be written to the `parsed_data.json` file.
+* The parsed data will be written to the `parsed_data.json` or anyother `xyz.json` file.
 -------------------------------------------------------------------------------------------
 
 # Dependencies
